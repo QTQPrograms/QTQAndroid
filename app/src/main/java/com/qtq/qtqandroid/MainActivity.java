@@ -23,15 +23,15 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 	private FragmentPagerAdapter mAdapter;
 	private List<Fragment> mFragments;
 
-	private LinearLayout mTabWeixin;
-	private LinearLayout mTabFrd;
-	private LinearLayout mTabAddress;
-	private LinearLayout mTabSettings;
+	private LinearLayout mTabMsg;
+	private LinearLayout mTabFun;
+	private LinearLayout mTabReport;
+	private LinearLayout mTabMe;
 
-	private ImageButton mImgWeixin;
-	private ImageButton mImgFrd;
-	private ImageButton mImgAddress;
-	private ImageButton mImgSettings;
+	private ImageButton mImgMsg;
+	private ImageButton mImgFun;
+	private ImageButton mImgReport;
+	private ImageButton mImgMe;
 
 	BadgeView badgeView;
 
@@ -45,7 +45,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 		initView();
 		initEvent();
 
-		ImageButton bb= (ImageButton) findViewById(R.id.id_tab_weixin_img);
+		//ImageButton bb= (ImageButton) findViewById(R.id.id_tab_weixin_img);
 
 
 
@@ -55,35 +55,35 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 
 	private void initEvent()
 	{
-		mTabWeixin.setOnClickListener(this);
-		mTabFrd.setOnClickListener(this);
-		mTabAddress.setOnClickListener(this);
-		mTabSettings.setOnClickListener(this);
+		mTabMsg.setOnClickListener(this);
+		mTabFun.setOnClickListener(this);
+		mTabReport.setOnClickListener(this);
+		mTabMe.setOnClickListener(this);
 	}
 
 	private void initView()
 	{
 		mViewPager = (ViewPager) findViewById(R.id.id_viewpager);
 
-		mTabWeixin = (LinearLayout) findViewById(R.id.id_tab_weixin);
-		mTabFrd = (LinearLayout) findViewById(R.id.id_tab_frd);
-		mTabAddress = (LinearLayout) findViewById(R.id.id_tab_address);
-		mTabSettings = (LinearLayout) findViewById(R.id.id_tab_settings);
+		mTabMsg = (LinearLayout) findViewById(R.id.id_tab_msg);
+		mTabFun = (LinearLayout) findViewById(R.id.id_tab_fun);
+		mTabReport = (LinearLayout) findViewById(R.id.id_tab_report);
+		mTabMe = (LinearLayout) findViewById(R.id.id_tab_me);
 
-		mImgWeixin = (ImageButton) findViewById(R.id.id_tab_weixin_img);
-		mImgFrd = (ImageButton) findViewById(R.id.id_tab_frd_img);
-		mImgAddress = (ImageButton) findViewById(R.id.id_tab_address_img);
-		mImgSettings = (ImageButton) findViewById(R.id.id_tab_settings_img);
+		mImgMsg = (ImageButton) findViewById(R.id.id_tab_msg_img);
+		mImgFun = (ImageButton) findViewById(R.id.id_tab_fun_img);
+		mImgReport = (ImageButton) findViewById(R.id.id_tab_report_img);
+		mImgMe = (ImageButton) findViewById(R.id.id_tab_me_img);
 
-		badgeView=new BadgeView(this,mImgWeixin);
+		badgeView=new BadgeView(this,mImgMsg);
 		badgeView.setText("2");
 		badgeView.show();
 
 		mFragments = new ArrayList<Fragment>();
-		Fragment mTab01 = new WeixinFragment();
-		Fragment mTab02 = new FrdFragment();
-		Fragment mTab03 = new AddressFragment();
-		Fragment mTab04 = new SettingFragment();
+		Fragment mTab01 = new MsgFragment();
+		Fragment mTab02 = new FunFragment();
+		Fragment mTab03 = new ReportFragment();
+		Fragment mTab04 = new MeFragment();
 		mFragments.add(mTab01);
 		mFragments.add(mTab02);
 		mFragments.add(mTab03);
@@ -137,16 +137,16 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 	{
 		switch (v.getId())
 		{
-		case R.id.id_tab_weixin:
+		case R.id.id_tab_msg:
 			setSelect(0);
 			break;
-		case R.id.id_tab_frd:
+		case R.id.id_tab_fun:
 			setSelect(1);
 			break;
-		case R.id.id_tab_address:
+		case R.id.id_tab_report:
 			setSelect(2);
 			break;
-		case R.id.id_tab_settings:
+		case R.id.id_tab_me:
 			setSelect(3);
 			break;
 
@@ -164,21 +164,20 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 	private void setTab(int i)
 	{
 		resetImgs();
-		// ����ͼƬΪ��ɫ
-		// �л���������
+
 		switch (i)
 		{
 		case 0:
-			mImgWeixin.setImageResource(R.drawable.tab_weixin_pressed);
+			mImgMsg.setImageResource(R.drawable.tab_msg_pressed);
 			break;
 		case 1:
-			mImgFrd.setImageResource(R.drawable.tab_find_frd_pressed);
+			mImgFun.setImageResource(R.drawable.tab_fun_pressed);
 			break;
 		case 2:
-			mImgAddress.setImageResource(R.drawable.tab_address_pressed);
+			mImgReport.setImageResource(R.drawable.tab_report_pressed);
 			break;
 		case 3:
-			mImgSettings.setImageResource(R.drawable.tab_settings_pressed);
+			mImgMe.setImageResource(R.drawable.tab_me_pressed);
 			break;
 		}
 	}
@@ -188,10 +187,10 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 	 */
 	private void resetImgs()
 	{
-		mImgWeixin.setImageResource(R.drawable.tab_weixin_normal);
-		mImgFrd.setImageResource(R.drawable.tab_find_frd_normal);
-		mImgAddress.setImageResource(R.drawable.tab_address_normal);
-		mImgSettings.setImageResource(R.drawable.tab_settings_normal);
+		mImgMsg.setImageResource(R.drawable.tab_msg_normal);
+		mImgFun.setImageResource(R.drawable.tab_fun_normal);
+		mImgReport.setImageResource(R.drawable.tab_report_normal);
+		mImgMe.setImageResource(R.drawable.tab_me_normal);
 	}
 
 }

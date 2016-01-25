@@ -10,84 +10,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c768271f-acb1-4e33-926b-2aebd3db6222" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/libs/android-viewbadger.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_bar.9.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_address_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_address_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_bg2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_find_frd_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_find_frd_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_settings_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_settings_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_weixin_normal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_weixin_pressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/title_bar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/AddressFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/FrdFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/SettingFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/WeixinFragment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab01.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab02.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab03.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/tab04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\FirstLayerFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\MoreFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\SecondLayerFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\TabMainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\color\tab_main_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\color\tab_top2_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\color\tab_top_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\ap_base_menu_shadow.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\c.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\maintab_1_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\maintab_2_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\maintab_3_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\maintab_4_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\p1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\p2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\p3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\p4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\slide.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_check_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_radio_button_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_discover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_discover_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_home.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_home_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_message_center.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_message_center_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_profile.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tabbar_profile_selected.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\layout\activity_slidebar.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\layout\activity_tabmain.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\layout\fragment_tabmain.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\layout\fragment_tabmain_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\layout\layout_slidebar.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\layout\tab_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\layout\tab_top.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bottom_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_fun_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_fun_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_me_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_me_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_msg_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_msg_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_report_normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tab_report_pressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/top_bg.png" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_address_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_address_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_find_frd_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_find_frd_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_settings_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_settings_pressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_weixin_normal.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\BWP\QTQAndroid\app\src\main\res\drawable\tab_weixin_pressed.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/outputFileStates.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.8/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/LoginActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/bottom.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bottom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/top.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\AddressFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/ReportFragment.java" />
+      <change type="MOVED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\FrdFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/FunFragment.java" />
+      <change type="MOVED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\SettingFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MeFragment.java" />
+      <change type="MOVED" beforePath="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid\WeixinFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MsgFragment.java" />
     </list>
     <ignored path="QTQAndroid.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,8 +77,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WeixinFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/WeixinFragment.java">
+      <file leaf-file-name="MsgFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MsgFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
@@ -137,11 +89,11 @@
       </file>
       <file leaf-file-name="tab01.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab01.xml">
-          <provider editor-type-id="android-designer">
+          <provider selected="true" editor-type-id="android-designer">
             <state />
           </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+          <provider editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -151,8 +103,8 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33266932">
-              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.046062406">
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,8 +112,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrdFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/FrdFragment.java">
+      <file leaf-file-name="FunFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/FunFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
@@ -176,8 +128,21 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.5">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state vertical-scroll-proportion="-8.866667">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="top.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/top.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.5333333">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -189,8 +154,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.7">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="20" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -201,16 +166,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1793,8 +1748,9 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/LoginActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/bottom.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/bottom.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/top.xml" />
       </list>
     </option>
   </component>
@@ -2128,8 +2084,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\BWP\QTQAndroid\app\src\main\res\layout" />
       <recent name="D:\BWP\QTQAndroid\app\src\main\res\drawable" />
+      <recent name="D:\BWP\QTQAndroid\app\src\main\res\layout" />
       <recent name="D:\BWP\QTQAndroid\app\src\main\java\com\qtq\qtqandroid" />
       <recent name="D:\BWP\QTQAndroid\app\src\main\libs" />
     </key>
@@ -2318,34 +2274,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47266516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41343963" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13439636" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47266516" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294621" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23655257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23655257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2412,7 +2368,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/WeixinFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MsgFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
@@ -2420,24 +2376,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab01.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/FunFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab01.xml">
+      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.5">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2447,24 +2400,38 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.7">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/FrdFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-8.866667">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/top.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5333333">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/qtq/qtqandroid/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33266932">
-          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.046062406">
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
