@@ -26,4 +26,5 @@ dependencies {
     compile 'com.android.support:design:23.1.1'
     compile 'com.android.support:support-v4:23.1.1'
     compile files('src/main/libs/ViewpagerIndicator_1.0.2.jar')
+    compile files('src/main/libs/android-viewbadger.jar')
 }

@@ -1,127 +1,197 @@
 package com.qtq.qtqandroid;
 
-import android.graphics.Color;
+import java.util.ArrayList;
+import java.util.List;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
+import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.View;
-import android.view.ViewGroup;
-import android.widget.CompoundButton;
-import android.widget.TextView;
-import android.widget.ToggleButton;
+import android.view.View.OnClickListener;
+import android.view.Window;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 
-import com.shizhefei.view.indicator.FragmentListPageAdapter;
-import com.shizhefei.view.indicator.Indicator;
-import com.shizhefei.view.indicator.IndicatorViewPager;
-import com.shizhefei.view.indicator.ScrollIndicatorView;
-import com.shizhefei.view.indicator.slidebar.ColorBar;
-import com.shizhefei.view.indicator.transition.OnTransitionTextListener;
+import com.readystatesoftware.viewbadger.BadgeView;
 
-/**
- * Created by luanhui on 2016/1/19.
- */
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends FragmentActivity implements OnClickListener
+{
+	private ViewPager mViewPager;
+	private FragmentPagerAdapter mAdapter;
+	private List<Fragment> mFragments;
 
-    private IndicatorViewPager indicatorViewPager;
-    private LayoutInflater inflate;
-    private String[] names = { "CUPCAKE", "DONUT", "FROYO", "GINGERBREAD", "HONEYCOMB", "ICE CREAM SANDWICH", "JELLY BEAN", "KITKAT" };
-    private ScrollIndicatorView indicator;
+	private LinearLayout mTabWeixin;
+	private LinearLayout mTabFrd;
+	private LinearLayout mTabAddress;
+	private LinearLayout mTabSettings;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ToggleButton toggleButton = (ToggleButton) findViewById(R.id.toggleButton1);
-        ViewPager viewPager = (ViewPager) findViewById(R.id.moretab_viewPager);
-        indicator = (ScrollIndicatorView) findViewById(R.id.moretab_indicator);
-        indicator.setScrollBar(new ColorBar(this, Color.RED, 5));
+	private ImageButton mImgWeixin;
+	private ImageButton mImgFrd;
+	private ImageButton mImgAddress;
+	private ImageButton mImgSettings;
 
-        // 设置滚动监听
-        int selectColorId = R.color.tab_top_text_2;
-        int unSelectColorId = R.color.tab_top_text_1;
-        indicator.setOnTransitionListener(new OnTransitionTextListener().setColorId(this, selectColorId, unSelectColorId));
+	BadgeView badgeView;
 
-        viewPager.setOffscreenPageLimit(2);
-        indicatorViewPager = new IndicatorViewPager(indicator, viewPager);
-        inflate = LayoutInflater.from(getApplicationContext());
-        indicatorViewPager.setAdapter(new MyAdapter(getSupportFragmentManager()));
+	@Override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.activity_main);
 
-        // 默认true ，自动布局
-        toggleButton.setChecked(indicator.isSplitAuto());
-        toggleButton.setOnCheckedChangeListener(onCheckedChangeListener);
+		initView();
+		initEvent();
 
-    }
+		ImageButton bb= (ImageButton) findViewById(R.id.id_tab_weixin_img);
 
-    private CompoundButton.OnCheckedChangeListener onCheckedChangeListener = new CompoundButton.OnCheckedChangeListener() {
 
-        @Override
-        public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-            // 设置是否自动布局
-            indicator.setSplitAuto(isChecked);
-        }
-    };
 
-    private int size = 3;
 
-    public void on3(View view) {
-        size = 3;
-        indicatorViewPager.getAdapter().notifyDataSetChanged();
-    }
+		setSelect(1);
+	}
 
-    public void on4(View view) {
-        size = 4;
-        indicatorViewPager.getAdapter().notifyDataSetChanged();
-    }
+	private void initEvent()
+	{
+		mTabWeixin.setOnClickListener(this);
+		mTabFrd.setOnClickListener(this);
+		mTabAddress.setOnClickListener(this);
+		mTabSettings.setOnClickListener(this);
+	}
 
-    public void on5(View view) {
-        size = 5;
-        indicatorViewPager.getAdapter().notifyDataSetChanged();
-    }
+	private void initView()
+	{
+		mViewPager = (ViewPager) findViewById(R.id.id_viewpager);
 
-    public void on12(View view) {
-        size = 12;
-        indicatorViewPager.getAdapter().notifyDataSetChanged();
-    }
+		mTabWeixin = (LinearLayout) findViewById(R.id.id_tab_weixin);
+		mTabFrd = (LinearLayout) findViewById(R.id.id_tab_frd);
+		mTabAddress = (LinearLayout) findViewById(R.id.id_tab_address);
+		mTabSettings = (LinearLayout) findViewById(R.id.id_tab_settings);
 
-    private class MyAdapter extends IndicatorViewPager.IndicatorFragmentPagerAdapter {
+		mImgWeixin = (ImageButton) findViewById(R.id.id_tab_weixin_img);
+		mImgFrd = (ImageButton) findViewById(R.id.id_tab_frd_img);
+		mImgAddress = (ImageButton) findViewById(R.id.id_tab_address_img);
+		mImgSettings = (ImageButton) findViewById(R.id.id_tab_settings_img);
 
-        public MyAdapter(FragmentManager fragmentManager) {
-            super(fragmentManager);
-        }
+		badgeView=new BadgeView(this,mImgWeixin);
+		badgeView.setText("2");
+		badgeView.show();
 
-        @Override
-        public int getCount() {
-            return size;
-        }
+		mFragments = new ArrayList<Fragment>();
+		Fragment mTab01 = new WeixinFragment();
+		Fragment mTab02 = new FrdFragment();
+		Fragment mTab03 = new AddressFragment();
+		Fragment mTab04 = new SettingFragment();
+		mFragments.add(mTab01);
+		mFragments.add(mTab02);
+		mFragments.add(mTab03);
+		mFragments.add(mTab04);
 
-        @Override
-        public View getViewForTab(int position, View convertView, ViewGroup container) {
-            if (convertView == null) {
-                convertView = inflate.inflate(R.layout.tab_top, container, false);
-            }
-            TextView textView = (TextView) convertView;
-            textView.setText(names[position % names.length]);
-            textView.setPadding(20, 0, 20, 0);
-            return convertView;
-        }
+		mAdapter = new FragmentPagerAdapter(getSupportFragmentManager())
+		{
 
-        @Override
-        public Fragment getFragmentForPage(int position) {
-            MoreFragment fragment = new MoreFragment();
-            Bundle bundle = new Bundle();
-            bundle.putInt(MoreFragment.INTENT_INT_INDEX, position);
-            fragment.setArguments(bundle);
-            return fragment;
-        }
+			@Override
+			public int getCount()
+			{
+				return mFragments.size();
+			}
 
-        @Override
-        public int getItemPosition(Object object) {
-            return FragmentListPageAdapter.POSITION_NONE;
-        }
+			@Override
+			public Fragment getItem(int arg0)
+			{
+				return mFragments.get(arg0);
+			}
+		};
+		mViewPager.setAdapter(mAdapter);
+		
+		mViewPager.setOnPageChangeListener(new OnPageChangeListener()
+		{
+			
+			@Override
+			public void onPageSelected(int arg0)
+			{
+				int currentItem = mViewPager.getCurrentItem();
+				setTab(currentItem);
+			}
+			
+			@Override
+			public void onPageScrolled(int arg0, float arg1, int arg2)
+			{
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void onPageScrollStateChanged(int arg0)
+			{
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	}
 
-    };
+	@Override
+	public void onClick(View v)
+	{
+		switch (v.getId())
+		{
+		case R.id.id_tab_weixin:
+			setSelect(0);
+			break;
+		case R.id.id_tab_frd:
+			setSelect(1);
+			break;
+		case R.id.id_tab_address:
+			setSelect(2);
+			break;
+		case R.id.id_tab_settings:
+			setSelect(3);
+			break;
+
+		default:
+			break;
+		}
+	}
+
+	private void setSelect(int i)
+	{
+		setTab(i);
+		mViewPager.setCurrentItem(i);
+	}
+
+	private void setTab(int i)
+	{
+		resetImgs();
+		// ����ͼƬΪ��ɫ
+		// �л���������
+		switch (i)
+		{
+		case 0:
+			mImgWeixin.setImageResource(R.drawable.tab_weixin_pressed);
+			break;
+		case 1:
+			mImgFrd.setImageResource(R.drawable.tab_find_frd_pressed);
+			break;
+		case 2:
+			mImgAddress.setImageResource(R.drawable.tab_address_pressed);
+			break;
+		case 3:
+			mImgSettings.setImageResource(R.drawable.tab_settings_pressed);
+			break;
+		}
+	}
+
+	/**
+	 * �л�ͼƬ����ɫ
+	 */
+	private void resetImgs()
+	{
+		mImgWeixin.setImageResource(R.drawable.tab_weixin_normal);
+		mImgFrd.setImageResource(R.drawable.tab_find_frd_normal);
+		mImgAddress.setImageResource(R.drawable.tab_address_normal);
+		mImgSettings.setImageResource(R.drawable.tab_settings_normal);
+	}
 
 }
