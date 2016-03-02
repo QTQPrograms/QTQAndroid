@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="巡店"
+    android:id="@+id/btn_fun_xundian"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="陈列检查"
+        android:id="@+id/btn_fun_chenliejiancha"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="竞品上报"
+        android:id="@+id/btn_fun_jingpinshangbao"/>
+
+
+    <!--<GridView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:id="@+id/fun_gridView"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:numColumns="auto_fit"-->
+        <!--android:columnWidth="100dp"-->
+        <!--android:stretchMode="columnWidth"-->
+        <!--android:verticalSpacing="10dp"-->
+        <!--android:horizontalSpacing="10dp"-->
+        <!--/>-->
+</LinearLayout>

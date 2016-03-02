@@ -12,6 +12,13 @@ public class MeFragment extends Fragment
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState)
 	{
-		return inflater.inflate(R.layout.tab04, container, false);
+		return inflater.inflate(R.layout.tab_me, container, false);
+	}
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+//		TextView tv04=(TextView) r.i findViewById(R.id.tv04);
+//		tv04.setText("aaaaa");
 	}
 }
