@@ -11,18 +11,20 @@ import android.widget.Button;
  * Created by luanhui on 2016/3/2.
  */
 public class XunDianMainActivity extends Activity {
+
     @Override
-    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.xundian_main);
         Button btnadd= (Button) findViewById(R.id.btn_xundian_add);
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent=new Intent();
-                intent.setClass(XunDianMainActivity.this,XunDianEditActivity.class);
+                Intent intent = new Intent();
+                intent.setClass(XunDianMainActivity.this, XunDianEditActivity.class);
                 startActivity(intent);
             }
         });
     }
+
 }

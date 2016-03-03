@@ -25,8 +25,26 @@
                 android:layout_marginRight="10dp"
                 android:text="右边带箭头的图片" />
         </LinearLayout>
-
-
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_map"
+        android:text="map info"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="到店签到"
+        android:id="@+id/xundian_edit_btn_inaction"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="离店签退"
+        android:id="@+id/xundian_edit_btn_outaction"/>
 
 </LinearLayout>

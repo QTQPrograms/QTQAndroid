@@ -20,6 +20,8 @@ import android.widget.Toast;
 
 import com.readystatesoftware.viewbadger.BadgeView;
 
+import org.forks.jsonrpc.RpcFacade;
+
 public class MainActivity extends FragmentActivity implements OnClickListener
 {
 	private ViewPager mViewPager;
@@ -43,6 +45,16 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 	{
 		super.onCreate(savedInstanceState);
 		//requestWindowFeature(Window.FEATURE_NO_TITLE);
+
+		if (!RpcFacade.isLogedIn()) {
+			finish();
+			return;
+		}
+
+		QTQAndroidApplication.UpdateLastActiveTime();
+		ExitApplication.getInstance().addActivity(this);
+
+
 		setContentView(R.layout.activity_main);
 
 		initView();
