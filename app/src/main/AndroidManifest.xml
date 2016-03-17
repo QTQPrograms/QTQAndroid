@@ -30,6 +30,8 @@
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".XunDianMainActivity"></activity>
         <activity android:name=".XunDianEditActivity"></activity>
+        <activity android:name=".XunDianInOutActionActivity"></activity>
+        <activity android:name=".SearchCustomerActivity"></activity>
 
         <activity android:name=".ServerConfigActivity"
             ></activity>

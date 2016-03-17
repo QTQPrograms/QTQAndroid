@@ -1,6 +1,7 @@
 package com.qtq.qtqandroid;
 
 import android.app.Application;
+import android.os.StrictMode;
 import android.util.Log;
 
 import com.qtq.Configs.LastLoginInfo;
@@ -22,6 +23,14 @@ public class QTQAndroidApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        //为了能够在主线程 使用网络  否则 RpcFacade.login(mLoginInfo.Username, mLoginInfo.Password); 报错，其他地方应该用 线程去做
+        StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+                .detectDiskReads().detectDiskWrites().detectNetwork()
+                .penaltyLog().build());
+        StrictMode.setVmPolicy(new StrictMode.VmPolicy.Builder()
+                .detectLeakedSqlLiteObjects().detectLeakedClosableObjects()
+                .penaltyLog().penaltyDeath().build());
+
 
         Platform.init(new AndroidPlatform(this));
         RpcFacade.init(Name);

@@ -1,6 +1,7 @@
 package com.qtq.qtqandroid;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -14,7 +15,10 @@ import com.amap.api.location.AMapLocation;
 import com.amap.api.location.AMapLocationClient;
 import com.amap.api.location.AMapLocationClientOption;
 import com.amap.api.location.AMapLocationListener;
+import com.qtq.Utils.ActivityUtil;
 import com.qtq.Utils.MapGaoDeUtil;
+
+import org.forks.jsonrpc.RpcObject;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -23,11 +27,16 @@ import java.util.Date;
 /**
  * Created by luanhui on 2016/3/2.
  */
-public class XunDianEditActivity  extends Activity implements AMapLocationListener {
+public class XunDianEditActivity  extends LoginedActivity implements AMapLocationListener {
 
+
+    long mId;
+    RpcObject mDmo;
 
     private AMapLocationClient locationClient = null;
     private AMapLocationClientOption locationOption = null;
+
+    LinearLayout llayoutIn,llayoutOut;
 
     TextView tvMap;
 
@@ -40,12 +49,24 @@ public class XunDianEditActivity  extends Activity implements AMapLocationListen
         llselectcustomer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(XunDianEditActivity.this, "sss",Toast.LENGTH_LONG).show();
+                //Toast.makeText(XunDianEditActivity.this, "sss", Toast.LENGTH_LONG).show();
+                Intent intent=new Intent();
+                intent.setClass(XunDianEditActivity.this,SearchCustomerActivity.class);
+                startActivity(intent);
             }
         });
 
         tvMap=(TextView)findViewById(R.id.tv_map);
 
+     llayoutIn= (LinearLayout) findViewById(R.id.xundian_edit_llayout_in);
+        llayoutIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ActivityUtil.Go(XunDianEditActivity.this,XunDianInOutActionActivity.class);
+            }
+        });
+
+     llayoutOut= (LinearLayout) findViewById(R.id.xundian_edit_llayout_out);
 
         initMap();
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/qtq_toolbar"/>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:layout_gravity="center_horizontal"
+        android:iconifiedByDefault="true"
+        android:imeOptions="actionSearch"
+        android:inputType="textCapWords"
+        android:queryHint="搜索客户名称、编码"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_customer_framelayout"
+        >
+
+    </FrameLayout>
+
+
+</LinearLayout>

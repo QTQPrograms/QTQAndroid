@@ -29,4 +29,6 @@ dependencies {
     compile files('src/main/libs/android-viewbadger.jar')
     compile files('src/main/libs/AMap_Location_v2.3.0_20160112.jar')
     compile files('src/main/libs/jsonrpc.jar')
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile project(':AnimRefreshRecyclerView')
 }

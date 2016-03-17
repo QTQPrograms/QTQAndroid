@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:id="@+id/tablelayout_toolbar">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            >
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/toolbar_return"
+                android:scaleType="centerInside"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/toolbar_iv_return"
+                />
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中中中中中中中中中中中"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/toolbar_tv_title"/>
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/toolbar_right"
+                android:scaleType="centerInside"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/toolbar_iv_right"
+                />
+
+        </TableRow>
+
+
+
+
+</TableLayout>

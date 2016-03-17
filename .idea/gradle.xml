@@ -10,7 +10,21 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AnimRefreshRecyclerView" />
+            <option value="$PROJECT_DIR$/ViewBadger" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customerplatform" />
+            <option value="$PROJECT_DIR$/qtqcommonutil" />
+          </set>
+        </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AnimRefreshRecyclerView" />
+            <option value="$PROJECT_DIR$/ViewBadger" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customerplatform" />
+            <option value="$PROJECT_DIR$/qtqcommonutil" />
           </set>
         </option>
       </GradleProjectSettings>

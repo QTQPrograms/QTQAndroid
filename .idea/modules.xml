@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AnimRefreshRecyclerView/AnimRefreshRecyclerView.iml" filepath="$PROJECT_DIR$/AnimRefreshRecyclerView/AnimRefreshRecyclerView.iml" />
       <module fileurl="file://$PROJECT_DIR$/QTQAndroid.iml" filepath="$PROJECT_DIR$/QTQAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewBadger/ViewBadger.iml" filepath="$PROJECT_DIR$/ViewBadger/ViewBadger.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customerplatform/customerplatform.iml" filepath="$PROJECT_DIR$/customerplatform/customerplatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qtqcommonutil/qtqcommonutil.iml" filepath="$PROJECT_DIR$/qtqcommonutil/qtqcommonutil.iml" />
     </modules>
   </component>
 </project>
