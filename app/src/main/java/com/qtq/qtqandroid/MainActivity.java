@@ -197,9 +197,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener
 		}
 	}
 
-	/**
-	 * �л�ͼƬ����ɫ
-	 */
+
 	private void resetImgs()
 	{
 		mImgMsg.setImageResource(R.drawable.tab_msg_normal);
